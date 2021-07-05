@@ -1,0 +1,12 @@
+name: BoatRace
+version: 1.0
+main: com.github.xenon.race.plugin.RacePlugin
+api-version: 1.16
+commands:
+  race:
+    permission: command.race
+    description: command for race
+permissions:
+  command.race:
+    default: op
+    description: permission to use command for race
